@@ -113,8 +113,6 @@ namespace cw {
 		int layer;	// 1-2
     int realVfat;
 
-		std::vector<cw::Cluster> pads;
-
 		Cluster(void);
 		Cluster(int, int, int, int, int);
 		Cluster(const Cluster&);

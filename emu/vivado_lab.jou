@@ -1,0 +1,24 @@
+#-----------------------------------------------------------
+# Vivado Lab Edition v2021.1 (64-bit)
+# SW Build 3247384 on Thu Jun 10 19:36:07 MDT 2021
+# 
+# Start of session at: Fri Nov  7 13:35:48 2025
+# Process ID: 32195
+# Current directory: /home/cscdev/EMULIB_V15_Master_mod_by_Ange/emu
+# Command line: vivado_lab
+# Log file: /home/cscdev/EMULIB_V15_Master_mod_by_Ange/emu/vivado_lab.log
+# Journal file: /home/cscdev/EMULIB_V15_Master_mod_by_Ange/emu/vivado_lab.jou
+#-----------------------------------------------------------
+start_gui
+open_hw_manager
+connect_hw_server -url localhost:3121 -allow_non_jtag
+current_hw_target [get_hw_targets */xilinx_tcf/Xilinx/000013c9c45d01]
+set_property PARAM.FREQUENCY 6000000 [get_hw_targets */xilinx_tcf/Xilinx/000013c9c45d01]
+open_hw_target
+current_hw_device [get_hw_devices xcku035_0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xcku035_0] 0]
+set_property PROBES.FILE {} [get_hw_devices xcku035_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xcku035_0]
+set_property PROGRAM.FILE {/home/cscdev/odmb7/odmb7_ucsb_dev_PRBS31_always.bit} [get_hw_devices xcku035_0]
+program_hw_devices [get_hw_devices xcku035_0]
+refresh_hw_device [lindex [get_hw_devices xcku035_0] 0]
