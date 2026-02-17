@@ -9,66 +9,62 @@ Calling make all in directory /home/cscdev/emulib/master/emu/soap/.loop using in
 In Makefile.fallbacks: guessing/checking values
 Calling make all in directory /home/cscdev/emulib/master/emu/emuDCS/PeripheralCore/.loop using install
 In Makefile.fallbacks: guessing/checking values
-XDAQ_ROOT="/opt/xdaq"
-In Makefile.fallbacks: guessing/checking values
 Calling make all in directory /home/cscdev/emulib/master/emu/emuDCS/PeripheralApps/.loop using install
 XDAQ_ROOT="/opt/xdaq"
-In Makefile.fallbacks: guessing/checking values
-XDAQ_OS already set to "linux"
 Calling make all in directory /home/cscdev/emulib/master/emu/emuDCS/PeripheralXtop/.loop using install
+In Makefile.fallbacks: guessing/checking values
+In Makefile.fallbacks: guessing/checking values
 XDAQ_ROOT="/opt/xdaq"
 Calling make all in directory /home/cscdev/emulib/master/emu/emuDCS/OnlineDB/.loop using install
-XDAQ_ROOT="/opt/xdaq"
-XDAQ_OS already set to "linux"
 In Makefile.fallbacks: guessing/checking values
-XDAQ_PLATFORM already set to "x86_64_cc7"
 XDAQ_OS already set to "linux"
 Calling make all in directory /home/cscdev/emulib/master/emu/emuDCS/FEDCore/.loop using install
+XDAQ_ROOT="/opt/xdaq"
+XDAQ_ROOT="/opt/xdaq"
 XDAQ_OS already set to "linux"
-In Makefile.fallbacks: guessing/checking values
-XDAQ_PLATFORM already set to "x86_64_cc7"
-XDAQ_PLATFORM already set to "x86_64_cc7"
-Guessed undefined XDAQ_PLATFORM to "x86_64_cc7"
 XDAQ_ROOT="/opt/xdaq"
 In Makefile.fallbacks: guessing/checking values
 XDAQ_PLATFORM already set to "x86_64_cc7"
-Guessed undefined XDAQ_PLATFORM to "x86_64_cc7"
 XDAQ_OS already set to "linux"
-XDAQ_ROOT="/opt/xdaq"
-Guessed undefined XDAQ_PLATFORM to "x86_64_cc7"
-XDAQ_ROOT="/opt/xdaq"
+XDAQ_OS already set to "linux"
 In Makefile.fallbacks: guessing/checking values
+In Makefile.fallbacks: guessing/checking values
+XDAQ_OS already set to "linux"
+XDAQ_PLATFORM already set to "x86_64_cc7"
 Guessed undefined XDAQ_PLATFORM to "x86_64_cc7"
 XDAQ_PLATFORM already set to "x86_64_cc7"
-XDAQ_OS already set to "linux"
-XDAQ_OS already set to "linux"
 XDAQ_ROOT="/opt/xdaq"
+XDAQ_PLATFORM already set to "x86_64_cc7"
+XDAQ_ROOT="/opt/xdaq"
+XDAQ_ROOT="/opt/xdaq"
+XDAQ_PLATFORM already set to "x86_64_cc7"
 Guessed undefined XDAQ_PLATFORM to "x86_64_cc7"
-XDAQ_PLATFORM already set to "x86_64_cc7"
-XDAQ_PLATFORM already set to "x86_64_cc7"
+Guessed undefined XDAQ_PLATFORM to "x86_64_cc7"
+Guessed undefined XDAQ_PLATFORM to "x86_64_cc7"
+XDAQ_OS already set to "linux"
+XDAQ_OS already set to "linux"
 XDAQ_OS already set to "linux"
 Guessed undefined XDAQ_PLATFORM to "x86_64_cc7"
+XDAQ_PLATFORM already set to "x86_64_cc7"
+XDAQ_PLATFORM already set to "x86_64_cc7"
 Guessed undefined XDAQ_PLATFORM to "x86_64_cc7"
 XDAQ_PLATFORM already set to "x86_64_cc7"
 Guessed undefined XDAQ_PLATFORM to "x86_64_cc7"
+Guessed undefined XDAQ_PLATFORM to "x86_64_cc7"
+awk: cmd. line:1: fatal: cannot open file `/home/cscdev/emulib/master/emu/emuDCS/PeripheralXtop/include/emu/emuDCS/PeripheralXtop/version.h' for reading (No such file or directory)
 awk: cmd. line:1: fatal: cannot open file `/home/cscdev/emulib/master/emu/emuDCS/PeripheralCore/include/emu/emuDCS/PeripheralCore/version.h' for reading (No such file or directory)
 awk: cmd. line:1: fatal: cannot open file `/home/cscdev/emulib/master/emu/emuDCS/FEDCore/include/emu/emuDCS/FEDCore/version.h' for reading (No such file or directory)
-awk: cmd. line:1: fatal: cannot open file `/home/cscdev/emulib/master/emu/emuDCS/PeripheralXtop/include/emu/emuDCS/PeripheralXtop/version.h' for reading (No such file or directory)
 awk: cmd. line:1: fatal: cannot open file `/home/cscdev/emulib/master/emu/emuDCS/OnlineDB/include/emu/emuDCS/OnlineDB/version.h' for reading (No such file or directory)
 awk: cmd. line:1: fatal: cannot open file `/home/cscdev/emulib/master/emu/emuDCS/PeripheralApps/include/emu/emuDCS/PeripheralApps/version.h' for reading (No such file or directory)
-awk: cmd. line:1: fatal: cannot open file `/home/cscdev/emulib/master/emu/emuDCS/PeripheralCore/include/emu/emuDCS/PeripheralCore/version.h' for reading (No such file or directory)
+awk: cmd. line:1: fatal: cannot open file `/home/cscdev/emulib/master/emu/emuDCS/PeripheralXtop/include/emu/emuDCS/PeripheralXtop/version.h' for reading (No such file or directory)
 make[1]: Entering directory `/home/cscdev/emulib/master/emu/soap'
 Build done.
 install -d /home/cscdev/emulib/master/x86_64_cc7/lib /home/cscdev/emulib/master/x86_64_cc7/bin /home/cscdev/emulib/master/x86_64_cc7/include /home/cscdev/emulib/master/x86_64_cc7/htdocs
 cd include; find ./ \( -name "*.[hi]" -o -name "*.hpp" -o -name "*.hh" -o -name "*.hxx" \) -type f -exec install -p -D {} /home/cscdev/emulib/master/x86_64_cc7/include/{} \;
 echo Installing dynamic library.
 cp -pd -p /home/cscdev/emulib/master/emu/soap/lib/linux/x86_64_cc7/libemusoap.so* /home/cscdev/emulib/master/x86_64_cc7/lib/
-make[1]: Entering directory `/home/cscdev/emulib/master/emu/emuDCS/PeripheralCore'
-Build done.
-install -d /home/cscdev/emulib/master/x86_64_cc7/lib /home/cscdev/emulib/master/x86_64_cc7/bin /home/cscdev/emulib/master/x86_64_cc7/include /home/cscdev/emulib/master/x86_64_cc7/htdocs
-cd include; find ./ \( -name "*.[hi]" -o -name "*.hpp" -o -name "*.hh" -o -name "*.hxx" \) -type f -exec install -p -D {} /home/cscdev/emulib/master/x86_64_cc7/include/{} \;
-echo Installing dynamic library.
-cp -pd -p /home/cscdev/emulib/master/emu/emuDCS/PeripheralCore/lib/linux/x86_64_cc7/libEmuPeripheralCore.so* /home/cscdev/emulib/master/x86_64_cc7/lib/
+awk: cmd. line:1: fatal: cannot open file `/home/cscdev/emulib/master/emu/emuDCS/FEDCore/include/emu/emuDCS/FEDCore/version.h' for reading (No such file or directory)
+awk: cmd. line:1: fatal: cannot open file `/home/cscdev/emulib/master/emu/emuDCS/PeripheralCore/include/emu/emuDCS/PeripheralCore/version.h' for reading (No such file or directory)
 make[1]: Entering directory `/home/cscdev/emulib/master/emu/base'
 Build done.
 install -d /home/cscdev/emulib/master/x86_64_cc7/lib /home/cscdev/emulib/master/x86_64_cc7/bin /home/cscdev/emulib/master/x86_64_cc7/include /home/cscdev/emulib/master/x86_64_cc7/htdocs
@@ -84,16 +80,21 @@ mkdir -p /home/cscdev/emulib/master/x86_64_cc7/htdocs/emu/base/xml
 cd /home/cscdev/emulib/master/emu/base/xml; find ./ -name "*" -type f -exec install -D -m 655 {} /home/cscdev/emulib/master/x86_64_cc7/htdocs/emu/base/xml/{} \;
 echo Installing dynamic library.
 cp -pd -p /home/cscdev/emulib/master/emu/base/lib/linux/x86_64_cc7/libemubase.so* /home/cscdev/emulib/master/x86_64_cc7/lib/
-awk: cmd. line:1: fatal: cannot open file `/home/cscdev/emulib/master/emu/emuDCS/PeripheralXtop/include/emu/emuDCS/PeripheralXtop/version.h' for reading (No such file or directory)
-awk: cmd. line:1: fatal: cannot open file `/home/cscdev/emulib/master/emu/emuDCS/OnlineDB/include/emu/emuDCS/OnlineDB/version.h' for reading (No such file or directory)
-awk: cmd. line:1: fatal: cannot open file `/home/cscdev/emulib/master/emu/emuDCS/FEDCore/include/emu/emuDCS/FEDCore/version.h' for reading (No such file or directory)
 make[1]: Entering directory `/home/cscdev/emulib/master/emu/emuDCS/FEDCore'
-make[1]: Entering directory `/home/cscdev/emulib/master/emu/emuDCS/OnlineDB'
+make[1]: Entering directory `/home/cscdev/emulib/master/emu/emuDCS/PeripheralCore'
 Build done.
 install -d /home/cscdev/emulib/master/x86_64_cc7/lib /home/cscdev/emulib/master/x86_64_cc7/bin /home/cscdev/emulib/master/x86_64_cc7/include /home/cscdev/emulib/master/x86_64_cc7/htdocs
 cd include; find ./ \( -name "*.[hi]" -o -name "*.hpp" -o -name "*.hh" -o -name "*.hxx" \) -type f -exec install -p -D {} /home/cscdev/emulib/master/x86_64_cc7/include/{} \;
 echo Installing dynamic library.
 cp -pd -p /home/cscdev/emulib/master/emu/emuDCS/FEDCore/lib/linux/x86_64_cc7/libEmuFEDCore.so* /home/cscdev/emulib/master/x86_64_cc7/lib/
+Build done.
+install -d /home/cscdev/emulib/master/x86_64_cc7/lib /home/cscdev/emulib/master/x86_64_cc7/bin /home/cscdev/emulib/master/x86_64_cc7/include /home/cscdev/emulib/master/x86_64_cc7/htdocs
+cd include; find ./ \( -name "*.[hi]" -o -name "*.hpp" -o -name "*.hh" -o -name "*.hxx" \) -type f -exec install -p -D {} /home/cscdev/emulib/master/x86_64_cc7/include/{} \;
+echo Installing dynamic library.
+cp -pd -p /home/cscdev/emulib/master/emu/emuDCS/PeripheralCore/lib/linux/x86_64_cc7/libEmuPeripheralCore.so* /home/cscdev/emulib/master/x86_64_cc7/lib/
+awk: cmd. line:1: fatal: cannot open file `/home/cscdev/emulib/master/emu/emuDCS/OnlineDB/include/emu/emuDCS/OnlineDB/version.h' for reading (No such file or directory)
+awk: cmd. line:1: fatal: cannot open file `/home/cscdev/emulib/master/emu/emuDCS/PeripheralApps/include/emu/emuDCS/PeripheralApps/version.h' for reading (No such file or directory)
+make[1]: Entering directory `/home/cscdev/emulib/master/emu/emuDCS/OnlineDB'
 Build done.
 install -d /home/cscdev/emulib/master/x86_64_cc7/lib /home/cscdev/emulib/master/x86_64_cc7/bin /home/cscdev/emulib/master/x86_64_cc7/include /home/cscdev/emulib/master/x86_64_cc7/htdocs
 cd include; find ./ \( -name "*.[hi]" -o -name "*.hpp" -o -name "*.hh" -o -name "*.hxx" \) -type f -exec install -p -D {} /home/cscdev/emulib/master/x86_64_cc7/include/{} \;
@@ -108,16 +109,18 @@ mkdir -p /home/cscdev/emulib/master/x86_64_cc7/htdocs/emu/emuDCS/OnlineDB/xml
 cd /home/cscdev/emulib/master/emu/emuDCS/OnlineDB/xml; find ./ -name "*" -type f -exec install -D -m 655 {} /home/cscdev/emulib/master/x86_64_cc7/htdocs/emu/emuDCS/OnlineDB/xml/{} \;
 echo Installing dynamic library.
 cp -pd -p /home/cscdev/emulib/master/emu/emuDCS/OnlineDB/lib/linux/x86_64_cc7/libEmuOnlineDB.so* /home/cscdev/emulib/master/x86_64_cc7/lib/
-awk: cmd. line:1: fatal: cannot open file `/home/cscdev/emulib/master/emu/emuDCS/PeripheralApps/include/emu/emuDCS/PeripheralApps/version.h' for reading (No such file or directory)
 Installing dynamic library.
+make[1]: Entering directory `/home/cscdev/emulib/master/emu/emuDCS/PeripheralXtop'
 make[1]: Leaving directory `/home/cscdev/emulib/master/emu/soap'
+Build done.
+install -d /home/cscdev/emulib/master/x86_64_cc7/lib /home/cscdev/emulib/master/x86_64_cc7/bin /home/cscdev/emulib/master/x86_64_cc7/include /home/cscdev/emulib/master/x86_64_cc7/htdocs
+cd include; find ./ \( -name "*.[hi]" -o -name "*.hpp" -o -name "*.hh" -o -name "*.hxx" \) -type f -exec install -p -D {} /home/cscdev/emulib/master/x86_64_cc7/include/{} \;
+echo Installing dynamic library.
+cp -pd -p /home/cscdev/emulib/master/emu/emuDCS/PeripheralXtop/lib/linux/x86_64_cc7/libEmuPeripheralXtop.so* /home/cscdev/emulib/master/x86_64_cc7/lib/
 Calling make all in directory /home/cscdev/emulib/master/emu/emuDCS/FEDUtils/.loop using install
 In Makefile.fallbacks: guessing/checking values
-XDAQ_ROOT="/opt/xdaq"
-XDAQ_OS already set to "linux"
-XDAQ_PLATFORM already set to "x86_64_cc7"
-Guessed undefined XDAQ_PLATFORM to "x86_64_cc7"
 make[1]: Entering directory `/home/cscdev/emulib/master/emu/supervisor'
+XDAQ_ROOT="/opt/xdaq"
 Build done.
 install -d /home/cscdev/emulib/master/x86_64_cc7/lib /home/cscdev/emulib/master/x86_64_cc7/bin /home/cscdev/emulib/master/x86_64_cc7/include /home/cscdev/emulib/master/x86_64_cc7/htdocs
 cd include; find ./ \( -name "*.[hi]" -o -name "*.hpp" -o -name "*.hh" -o -name "*.hxx" \) -type f -exec install -p -D {} /home/cscdev/emulib/master/x86_64_cc7/include/{} \;
@@ -129,15 +132,18 @@ mkdir -p /home/cscdev/emulib/master/x86_64_cc7/htdocs/emu/supervisor/xml
 cd /home/cscdev/emulib/master/emu/supervisor/xml; find ./ -name "*" -type f -exec install -D -m 655 {} /home/cscdev/emulib/master/x86_64_cc7/htdocs/emu/supervisor/xml/{} \;
 echo Installing dynamic library.
 cp -pd -p /home/cscdev/emulib/master/emu/supervisor/lib/linux/x86_64_cc7/libemusupervisor.so* /home/cscdev/emulib/master/x86_64_cc7/lib/
-make[1]: Entering directory `/home/cscdev/emulib/master/emu/emuDCS/PeripheralXtop'
-Build done.
-install -d /home/cscdev/emulib/master/x86_64_cc7/lib /home/cscdev/emulib/master/x86_64_cc7/bin /home/cscdev/emulib/master/x86_64_cc7/include /home/cscdev/emulib/master/x86_64_cc7/htdocs
-cd include; find ./ \( -name "*.[hi]" -o -name "*.hpp" -o -name "*.hh" -o -name "*.hxx" \) -type f -exec install -p -D {} /home/cscdev/emulib/master/x86_64_cc7/include/{} \;
-echo Installing dynamic library.
-cp -pd -p /home/cscdev/emulib/master/emu/emuDCS/PeripheralXtop/lib/linux/x86_64_cc7/libEmuPeripheralXtop.so* /home/cscdev/emulib/master/x86_64_cc7/lib/
-awk: cmd. line:1: fatal: cannot open file `/home/cscdev/emulib/master/emu/emuDCS/FEDUtils/include/emu/emuDCS/FEDUtils/version.h' for reading (No such file or directory)
+XDAQ_OS already set to "linux"
+XDAQ_PLATFORM already set to "x86_64_cc7"
+Guessed undefined XDAQ_PLATFORM to "x86_64_cc7"
 Installing dynamic library.
+make[1]: Leaving directory `/home/cscdev/emulib/master/emu/emuDCS/FEDCore'
+Calling make all in directory /home/cscdev/emulib/master/emu/emuDCS/FEDApps/.loop using install
+In Makefile.fallbacks: guessing/checking values
+XDAQ_ROOT="/opt/xdaq"
+XDAQ_OS already set to "linux"
 make[1]: Entering directory `/home/cscdev/emulib/master/emu/emuDCS/PeripheralApps'
+awk: cmd. line:1: fatal: cannot open file `/home/cscdev/emulib/master/emu/emuDCS/FEDUtils/include/emu/emuDCS/FEDUtils/version.h' for reading (No such file or directory)
+XDAQ_PLATFORM already set to "x86_64_cc7"
 Build done.
 install -d /home/cscdev/emulib/master/x86_64_cc7/lib /home/cscdev/emulib/master/x86_64_cc7/bin /home/cscdev/emulib/master/x86_64_cc7/include /home/cscdev/emulib/master/x86_64_cc7/htdocs
 cd include; find ./ \( -name "*.[hi]" -o -name "*.hpp" -o -name "*.hh" -o -name "*.hxx" \) -type f -exec install -p -D {} /home/cscdev/emulib/master/x86_64_cc7/include/{} \;
@@ -146,18 +152,18 @@ mkdir -p /home/cscdev/emulib/master/x86_64_cc7/htdocs/emu/emuDCS/PeripheralApps/
 cd /home/cscdev/emulib/master/emu/emuDCS/PeripheralApps/xml; find ./ -name "*" -type f -exec install -D -m 655 {} /home/cscdev/emulib/master/x86_64_cc7/htdocs/emu/emuDCS/PeripheralApps/xml/{} \;
 echo Installing dynamic library.
 cp -pd -p /home/cscdev/emulib/master/emu/emuDCS/PeripheralApps/lib/linux/x86_64_cc7/libEmuPeripheralApps.so* /home/cscdev/emulib/master/x86_64_cc7/lib/
-make[1]: Leaving directory `/home/cscdev/emulib/master/emu/emuDCS/FEDCore'
-Calling make all in directory /home/cscdev/emulib/master/emu/emuDCS/FEDApps/.loop using install
+Guessed undefined XDAQ_PLATFORM to "x86_64_cc7"
+Installing dynamic library.
+make[1]: Leaving directory `/home/cscdev/emulib/master/emu/emuDCS/PeripheralXtop'
+Calling make all in directory /home/cscdev/emulib/master/emu/emuDCS/CSCGEMTestStand/.loop using install
 In Makefile.fallbacks: guessing/checking values
 XDAQ_ROOT="/opt/xdaq"
 XDAQ_OS already set to "linux"
 XDAQ_PLATFORM already set to "x86_64_cc7"
 Guessed undefined XDAQ_PLATFORM to "x86_64_cc7"
-Installing dynamic library.
+awk: cmd. line:1: fatal: cannot open file `/home/cscdev/emulib/master/emu/emuDCS/FEDApps/include/emu/emuDCS/FEDApps/version.h' for reading (No such file or directory)
 awk: cmd. line:1: fatal: cannot open file `/home/cscdev/emulib/master/emu/emuDCS/FEDUtils/include/emu/emuDCS/FEDUtils/version.h' for reading (No such file or directory)
-make[1]: Leaving directory `/home/cscdev/emulib/master/emu/emuDCS/PeripheralXtop'
 make[1]: Entering directory `/home/cscdev/emulib/master/emu/emuDCS/FEDUtils'
-Calling make all in directory /home/cscdev/emulib/master/emu/emuDCS/CSCGEMTestStand/.loop using install
 Build done.
 install -d /home/cscdev/emulib/master/x86_64_cc7/lib /home/cscdev/emulib/master/x86_64_cc7/bin /home/cscdev/emulib/master/x86_64_cc7/include /home/cscdev/emulib/master/x86_64_cc7/htdocs
 cd include; find ./ \( -name "*.[hi]" -o -name "*.hpp" -o -name "*.hh" -o -name "*.hxx" \) -type f -exec install -p -D {} /home/cscdev/emulib/master/x86_64_cc7/include/{} \;
@@ -166,20 +172,12 @@ mkdir -p /home/cscdev/emulib/master/x86_64_cc7/htdocs/emu/emuDCS/FEDUtils/xml
 cd /home/cscdev/emulib/master/emu/emuDCS/FEDUtils/xml; find ./ -name "*" -type f -exec install -D -m 655 {} /home/cscdev/emulib/master/x86_64_cc7/htdocs/emu/emuDCS/FEDUtils/xml/{} \;
 echo Installing dynamic library.
 cp -pd -p /home/cscdev/emulib/master/emu/emuDCS/FEDUtils/lib/linux/x86_64_cc7/libEmuFEDUtils.so* /home/cscdev/emulib/master/x86_64_cc7/lib/
-In Makefile.fallbacks: guessing/checking values
-XDAQ_ROOT="/opt/xdaq"
-XDAQ_OS already set to "linux"
-XDAQ_PLATFORM already set to "x86_64_cc7"
-Guessed undefined XDAQ_PLATFORM to "x86_64_cc7"
-awk: cmd. line:1: fatal: cannot open file `/home/cscdev/emulib/master/emu/emuDCS/FEDApps/include/emu/emuDCS/FEDApps/version.h' for reading (No such file or directory)
 Installing html files.
 Installing html files.
-Installing xml files.
 awk: cmd. line:1: fatal: cannot open file `/home/cscdev/emulib/master/emu/emuDCS/CSCGEMTestStand/include/emu/emuDCS/CSCGEMTestStand/version.h' for reading (No such file or directory)
-Installing scripts files.
-Installing dynamic library.
-Installing image files.
+Installing xml files.
 awk: cmd. line:1: fatal: cannot open file `/home/cscdev/emulib/master/emu/emuDCS/FEDApps/include/emu/emuDCS/FEDApps/version.h' for reading (No such file or directory)
+Installing scripts files.
 Installing dynamic library.
 make[1]: Entering directory `/home/cscdev/emulib/master/emu/emuDCS/FEDApps'
 Build done.
@@ -193,26 +191,28 @@ mkdir -p /home/cscdev/emulib/master/x86_64_cc7/htdocs/emu/emuDCS/FEDApps/html
 cd /home/cscdev/emulib/master/emu/emuDCS/FEDApps/html; find ./ -name "*" -type f -exec install -D -m 655 {} /home/cscdev/emulib/master/x86_64_cc7/htdocs/emu/emuDCS/FEDApps/html/{} \;
 echo Installing dynamic library.
 cp -pd -p /home/cscdev/emulib/master/emu/emuDCS/FEDApps/lib/linux/x86_64_cc7/libEmuFEDApps.so* /home/cscdev/emulib/master/x86_64_cc7/lib/
+Installing dynamic library.
 make[1]: Leaving directory `/home/cscdev/emulib/master/emu/supervisor'
-Installing html files.
-Installing xml files.
-make[1]: Leaving directory `/home/cscdev/emulib/master/emu/emuDCS/PeripheralCore'
+Installing image files.
 awk: cmd. line:1: fatal: cannot open file `/home/cscdev/emulib/master/emu/emuDCS/CSCGEMTestStand/include/emu/emuDCS/CSCGEMTestStand/version.h' for reading (No such file or directory)
 Installing xml files.
+Installing html files.
+make[1]: Leaving directory `/home/cscdev/emulib/master/emu/emuDCS/PeripheralCore'
 Installing dynamic library.
-make[1]: Leaving directory `/home/cscdev/emulib/master/emu/emuDCS/OnlineDB'
 Installing xml files.
+make[1]: Leaving directory `/home/cscdev/emulib/master/emu/emuDCS/OnlineDB'
 make[1]: Entering directory `/home/cscdev/emulib/master/emu/emuDCS/CSCGEMTestStand'
 Build done.
 install -d /home/cscdev/emulib/master/x86_64_cc7/lib /home/cscdev/emulib/master/x86_64_cc7/bin /home/cscdev/emulib/master/x86_64_cc7/include /home/cscdev/emulib/master/x86_64_cc7/htdocs
 cd include; find ./ \( -name "*.[hi]" -o -name "*.hpp" -o -name "*.hh" -o -name "*.hxx" \) -type f -exec install -p -D {} /home/cscdev/emulib/master/x86_64_cc7/include/{} \;
 echo Installing dynamic library.
 cp -pd -p /home/cscdev/emulib/master/emu/emuDCS/CSCGEMTestStand/lib/linux/x86_64_cc7/libEmuCSCGEMTestStand.so* /home/cscdev/emulib/master/x86_64_cc7/lib/
+Installing xml files.
 Installing dynamic library.
 make[1]: Leaving directory `/home/cscdev/emulib/master/emu/base'
 Installing xml files.
-Installing dynamic library.
 Installing image files.
+Installing dynamic library.
 make[1]: Leaving directory `/home/cscdev/emulib/master/emu/emuDCS/FEDUtils'
 Installing dynamic library.
 make[1]: Leaving directory `/home/cscdev/emulib/master/emu/emuDCS/CSCGEMTestStand'
