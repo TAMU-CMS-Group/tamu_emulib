@@ -1,3 +1,4 @@
 *.d
 *.o
 *.so
+make-install-framework.log
