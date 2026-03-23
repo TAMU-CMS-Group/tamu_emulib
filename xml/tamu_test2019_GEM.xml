@@ -3,7 +3,6 @@
 	      xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/"
 	      xmlns:xc="http://xdaq.web.cern.ch/xdaq/xsd/2004/XMLConfiguration-30">
 
-    <!--<xc:Context url="http://localhost:20014">-->
     <xc:Context url="http://10.119.64.4:20016">
     
         <xc:Application class="emu::pc::EmuPeripheralCrateConfig" id="70" instance="0" network="local">
@@ -11,9 +10,7 @@
                 <Standalone xsi:type="xsd:string">true</Standalone>
                 <XMLorDB xsi:type="xsd:string">xml</XMLorDB>
                 <EmuConfigurationID xsi:type="xsd:string">1000001</EmuConfigurationID>
-                <!--xmlFileName xsi:type="xsd:string">${BUILD_HOME}/xml/tamu_crate_config_2tmbs2019_GEM_20210525InjLCT.xml</xmlFileName-->
-                <xmlFileName xsi:type="xsd:string">${BUILD_HOME}/xml/tamu_crate_config_1otmbs2019_GEM.xml</xmlFileName>
-                <!--xmlFileName xsi:type="xsd:string">${BUILD_HOME}/xml/tamu_crate_config_2tmbs2019_GEM_bat904.xml</xmlFileName-->
+                <xmlFileName xsi:type="xsd:string">${BUILD_HOME}/xml/${CRATE_CONF}</xmlFileName>
             </properties>
         </xc:Application>
 

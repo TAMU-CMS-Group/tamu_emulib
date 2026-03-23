@@ -1,4 +1,10 @@
+# Build Artifacts
 *.d
 *.o
 *.so
-make-install-framework.log
+compile_commands.json
+
+# Logs
+*.log
+logs/*
+!logs/
